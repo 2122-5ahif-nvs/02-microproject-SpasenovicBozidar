@@ -1,0 +1,26 @@
+
+@startuml
+
+class Car{
+    -name: String;
+    -ps: double;
+    -cost: double;
+    -model: String;
+    -licensePlate: String;
+}
+class Rental{
+    -car: Car;
+    -renter: Renter;
+    -startDate: LocalDate;
+    -endDate: LocalDate;
+}
+class Renter{
+    -id: Long;
+    -name: String;
+}
+
+Car "1"<-l-"*" Rental : is rented >
+Rental "*"-r->"1" Renter : rents <
+
+
+@enduml
