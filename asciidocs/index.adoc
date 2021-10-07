@@ -7,7 +7,14 @@ Es gibt eine Vermietung, einen Kunden und mehrere Fahrzeuge die zum vermieten be
 
 
 == Class-Diagram
-image::images/cld.png[]
+[plantuml,cld,png]
+----
+include::plantuml/cld.puml[]
+----
 
 == Use Case-Diagram
-image::images/ucd.png[]
+
+[plantuml,ucd,png]
+----
+include::plantuml/ucd.puml[]
+----
