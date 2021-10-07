@@ -7,7 +7,7 @@ Es gibt eine Vermietung, einen Kunden und mehrere Fahrzeuge die zum vermieten be
 
 
 # Class-Diagram
-![cdl](images/cld.png)
+![cdl](asciidocs/images/cld.png)
 
 # Use Case-Diagram
-![ucd](images/ucd.png)
+![ucd](asciidocs/images/ucd.png)
