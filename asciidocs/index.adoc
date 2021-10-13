@@ -6,13 +6,14 @@ Die Idee des RentACar Projektes ist ein RestService der ein Autoverleih mit den 
 Es gibt eine Vermietung, einen Kunden und mehrere Fahrzeuge die zum vermieten bereit sind.
 
 
-== Class-Diagram
+== Class Diagram
+
 [plantuml,cld,png]
 ----
 include::plantuml/cld.puml[]
 ----
 
-== Use Case-Diagram
+== Use Case Diagram
 
 [plantuml,ucd,png]
 ----

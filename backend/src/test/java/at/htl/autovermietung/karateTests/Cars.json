@@ -1,0 +1,94 @@
+[
+  {
+    "cost": 200.0,
+    "licensePlate": "L-394LK",
+    "model": "911",
+    "name": "Porsche",
+    "ps": 250.0
+  },
+  {
+    "cost": 300.0,
+    "licensePlate": "L-300LK",
+    "model": "Jesko",
+    "name": "Koenigsegg",
+    "ps": 650.0
+  },
+  {
+    "cost": 60.0,
+    "licensePlate": "UU-152CC",
+    "model": "Sportage",
+    "name": "Kia",
+    "ps": 140.0
+  },
+  {
+    "cost": 20.0,
+    "licensePlate": "LL-899HQ",
+    "model": "45",
+    "name": "Yugo",
+    "ps": 50.0
+  },
+  {
+    "cost": 30.0,
+    "licensePlate": "L-109VV",
+    "model": "Punto",
+    "name": "Fiat",
+    "ps": 60.0
+  },
+  {
+    "cost": 120.0,
+    "licensePlate": "SR-373MM",
+    "model": "E-400",
+    "name": "Mercedes",
+    "ps": 230.0
+  },
+  {
+    "cost": 20.0,
+    "licensePlate": "LL-111FK",
+    "model": "Punto",
+    "name": "Fiat",
+    "ps": 40.0
+  },
+  {
+    "cost": 170.0,
+    "licensePlate": "L-324LK",
+    "model": "C63",
+    "name": "Mercedes",
+    "ps": 270.0
+  },
+  {
+    "cost": 150.0,
+    "licensePlate": "UU-974OK",
+    "model": "A5",
+    "name": "Audi",
+    "ps": 240.0
+  },
+  {
+    "cost": 100.0,
+    "licensePlate": "WE-114GK",
+    "model": "A4",
+    "name": "Audi",
+    "ps": 140.0
+  },
+  {
+    "cost": 50.0,
+    "licensePlate": "WE-314OK",
+    "model": "Espace",
+    "name": "Renault",
+    "ps": 140.0
+  },
+  {
+    "cost": 50.0,
+    "licensePlate": "L-764LG",
+    "model": "4x4",
+    "name": "Lada",
+    "ps": 120.0
+  },
+  {
+    "cost": 50.0,
+    "licensePlate": "L-111FF",
+    "model": "A4",
+    "name": "Audi",
+    "ps": 120.0
+  }
+]
+

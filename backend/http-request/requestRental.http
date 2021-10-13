@@ -1,0 +1,40 @@
+GET http://localhost:8080/api/rental
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/rental/get-rental-by-renter-id/1
+Accept: application/json
+
+####
+
+POST http://localhost:8080/api/rental/add-rental
+Accept: application/json
+
+{
+    "licensePlate": "L-111FF",
+    "endDate": "2020-12-11",
+    "renter": {
+      "name": "Nico"
+    },
+    "startDate": "2020-11-11"
+  }
+
+###
+PUT http://localhost:8080/api/rental/update-rental
+Content-Type: application/json
+
+{
+  "licensePlate": "L-111FF",
+  "endDate": "2020-12-11",
+  "renter": {
+    "name": "Jonas"
+  },
+  "startDate": "2020-11-11"
+}
+###
+
+DELETE http://localhost:8080/api/rental/delete-rental-by-id/2
+Content-Type: application/json
+
+###

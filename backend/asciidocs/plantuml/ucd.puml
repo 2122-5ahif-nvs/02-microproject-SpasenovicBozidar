@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+
+:Rental:
+:Renter:
+
+rectangle RentACar{
+    Rental -- (rent a car to customer)
+    Rental -- (add new car)
+    Rental -- (see not rented cars)
+    Renter -- (see not rented cars)
+    Renter -- (rent multiple car)
+
+}
+
+@enduml

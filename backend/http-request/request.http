@@ -1,0 +1,38 @@
+GET http://localhost:8080/api/car
+Accept: application/json
+
+###
+POST localhost:8080/api/car/add-car
+Content-Type: application/json
+
+{
+  "name": "VW",
+  "model": "Golf",
+  "ps": 500,
+  "cost": 30,
+  "licensePlate": "L-666TT"
+}
+
+###
+
+PUT http://localhost:8080/api/car/update-car
+Content-Type: application/json
+
+{
+  "name": "VW",
+  "model": "Polo",
+  "ps": 500,
+  "cost": 30,
+  "licensePlate": "L-666TT"
+}
+
+###
+DELETE http://localhost:8080/api/car/delete-car/L-324LK
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/car/get-car/L-324LK
+Accept: application/json
+
+###
+
